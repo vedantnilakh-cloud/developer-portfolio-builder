@@ -10,6 +10,7 @@
     "db:studio": "npx drizzle-kit studio --config=./drizzle.config.js"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.36.7",
     "@neondatabase/serverless": "^1.0.2",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.45.1",
@@ -19,9 +20,11 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/react": "19.2.8",
     "babel-plugin-react-compiler": "1.0.0",
     "daisyui": "^5.5.14",
     "drizzle-kit": "^0.31.8",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "5.9.3"
   }
 }
