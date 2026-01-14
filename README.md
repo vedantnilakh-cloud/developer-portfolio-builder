@@ -37,20 +37,12 @@ This project is built with a modern tech stack focusing on performance, scalabil
 
 ---
 
-## 📂 Project Structure
+## 🔐 Authentication
 
-```txt
-developer-portfolio-builder/
-│
-├── app/                # Next.js app router
-├── utilities/          # Database schema
-│   └── schema.js
-├── drizzle/            # Drizzle migrations
-├── public/             # Static assets
-│
-├── drizzle.config.js   # Drizzle configuration
-├── tailwind.config.js  # Tailwind & DaisyUI config
-├── .env                # Environment variables (ignored)
-├── package.json
-└── README.md
-```
+- Authentication implemented using **Clerk**
+- Email-based **Sign Up / Sign In**
+- Phone number authentication disabled
+- Secure session handling
+- User profile and logout via Clerk `UserButton`
+- Authentication routes managed using Next.js App Router
+
